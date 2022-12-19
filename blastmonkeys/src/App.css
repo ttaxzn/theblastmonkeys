@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'FunCrayon';
+  src: local('FunCrayon'), url(./fonts/FunCrayon.otf) format('opentype');
+}
+
+.App-header{
+  height: 100vh;
+  background-color: #faf575;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20vh;
+}
+
+.title{
+  font-family: 'FunCrayon';
+  font-size: 7vw;
+  color: red;
+}
+
+.enterContainer{
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.enter{
+  font-family: 'FunCrayon';
+  font-size: 8vh;
+  color: blue;
+  position: absolute;
+}
+
+.circle{
+  height: 38vh;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .title{
+    font-size: 15vw;
+    text-align: center;
+  }
+  .circle{
+    height: 20vh;
+  }
+
+  .enter{
+    font-size: 4vh;
+  }
+
+  .App-header{
+    gap: 10vh;
+    justify-content: flex-start;
+    padding-top: 25vh;
+  }
+ }
