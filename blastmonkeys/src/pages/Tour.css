@@ -1,0 +1,28 @@
+.bit-widget .bit-top-track-button {
+    display: none;
+}
+
+.tourdates{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 25%;
+    align-items: center;
+}
+
+.bit-widget-container{
+    width: 80%;
+    padding-left: 33%;
+}
+
+.tourtitle{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+}
+
+.tourdates .bit-nav-bar-container{
+    display: none
+}

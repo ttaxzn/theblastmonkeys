@@ -1,0 +1,185 @@
+/**************************************************/
+
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    padding-bottom: 10px;
+    width: 50px;
+}
+
+.navbar .logo{
+    margin-right: 85%;
+    display: flex;
+}
+.navbar{
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, auto) 1fr;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+a:-webkit-any-link{
+text-decoration: none;
+color: black;
+}
+
+/* NAVBAR */
+
+
+/**************************************************/
+
+
+
+
+
+/*************************************************************/
+
+
+/* FOOTER */
+
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+a:hover{
+    color: gray;
+}
+
+.copyright{
+    font-size: 10px;
+}
+
+.mobile{
+    display: none;
+}
+
+/* FOOTER */
+
+
+/**************************************************/
+
+
+
+
+
+
+
+/****************************************************/
+
+
+/* BANDS IN TOWN WIDGET */
+
+.tourdates1 .bit-nav-bar-container{
+    display: none;
+}
+
+.tourdates1{
+    padding-right:5%;
+}
+
+.bit-widget-container{
+    width: 60%;
+    padding-left: 20%;
+}
+
+/* BANDS IN TOWN WIDGET */
+
+
+/**************************************************/
+
+
+
+
+
+
+
+
+/**************************************************/
+
+
+/* MOBILE DEVICES */
+@media screen and (max-device-width: 640px){
+    .navbar{
+        display: none;
+    }
+    
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+   .tourdates1{
+    width: 40%;
+   
+   }
+
+    
+
+    
+}
+/* MOBILE DEVICES */
+
+
+
+/********************************************************/
+
+
+
+
+
+
+
+/**************************************************/
+
+
+/* TABLETS */  
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+    .navbar .logo{
+        margin-right: 65%;
+        display: flex;
+    }
+}
+/* TABLETS */  
+
+
+/**************************************************/
